@@ -115,3 +115,17 @@ necessary or important to include here. Please use the `##` header.
 [1]: https://puppet.com/docs/pdk/latest/pdk_generating_modules.html
 [2]: https://puppet.com/docs/puppet/latest/puppet_strings.html
 [3]: https://puppet.com/docs/puppet/latest/puppet_strings_style.html
+
+## Todo
+
+  - [ ] A class that decommissions chef agents
+  - [ ] A class that decommissions chef infrastructure
+  - [ ] A class that installs/configures the puppet agent
+  - [ ] Explore creating a class that installs pe infrastructure (peadm?)
+  - [ ] Explore creating a class that installs foss puppet infrastructure
+  - [ ] A bolt plan that orchestrates decommissioning chef w/ options for installing
+  the agent, infrastructure, or both
+  - [ ] Ensure above bolt plan is idempotent
+  - [ ] Test this module on ephemeral hosts (containers prolly)
+  - [ ] Refactor readme w/ 1.0.0 product (while above task is being completed)
+  - [ ] Publish this module to the [forge](forge.puppet.com)
